@@ -46,11 +46,11 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
           <button class="navbar-toggler"style="padding-right: 0px; width: auto; height: auto" type="button" data-bs-toggle="collapse" data-bs-target="#list" aria-controls="list" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="list">
+          <div class="collapse navbar-collapse" id="list" itemprop="navbar">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#about">О нас</a></li>
-            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#prices">Тарифы</a></li>
-            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#info">Контакты</a></li>
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#about" itemscope itemtype=https://no-name-student.github.io/#about>О нас</a></li>
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#prices" itemscope itemtype=https://no-name-student.github.io/#prices>Тарифы</a></li>
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#info" itemscope itemtype=https://no-name-student.github.io/#info>Контакты</a></li>
             <li class ="nav-item"><a class = "navicn" class="position-absolute top-0 end-0" href="#" alt=""></a></li>
           </ul>
         </div>
@@ -58,7 +58,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
       <div class="container-fluid">
         <div class="row">
           <div class="col-3"></div>
-          <div class="col-6" id="toptext">
+          <div class="col-6" id="toptext" itemprop="title">
             <p>
             База отдыха “Лесная мечта”  предлагает вам уютное место для отдыха в дали от городской суеты.
           </p class="h1">
@@ -68,20 +68,20 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
       </div>
       <div class="container-fluid" id="searchbar">
         <div class="row" style="text-align: center;">
-          <div class="col-md-2 col-12" id="searchbarelm">
+          <div class="col-md-2 col-12" id="searchbarelm" itemprop="searchbar">
             Поиск мест
           </div>
-          <div class="col-md-3 col-12"> 
-            <form>
+          <div class="col-md-3 col-12" itemprop="indate"> 
+            <form >
               <p><input type="text" name="datein" placeholder="Дата заезда" size="30" style="height: 60px; width: 200px;" /></p>
             </form>
           </div>
-          <div class="col-md-3 col-12">
+          <div class="col-md-3 col-12" itemprop="outdate">
             <form>
               <p><input type="text" name="dateout" placeholder="Дата выезда" size="30" style="height: 60px; width: 200px;"/></p>
             </form>
           </div>
-          <div class="col-md-3 col-12">
+          <div class="col-md-3 col-12" itemprop="peoplecount">
             <form>
               <p><input type="text" name="people" placeholder="Количество гостей" size="30" style="height: 60px; width: 200px;"/></p>
             </form>
@@ -95,17 +95,17 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
   <div class="main" style="background-color: #224335;">
     <div class="container-fluid sectionheader" id="about"> У нас вы найдете </div>
     <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
-    <div class="row" id="infoblock">
+    <div class="row" id="infoblock" itemprop="aboutinfo">
       <div class="col-xxl-4 col-xl-4"></div>
       <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
         <h1>Тут будет текст</h1>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+        <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;" itemprop="info">
         <img src="images/infocard1.png" width="100px" alt="">
       </div>
       </div>
     <div class="row" id="infoblock">
-    <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+    <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;" itemprop="info">
       <img src="images/infocard2.png" width="100px" alt="">
     </div>
     <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
@@ -118,12 +118,12 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
     <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
       <h1>Тут будет текст</h1>
       </div>
-      <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+      <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;" itemprop="info">
       <img src="images/infocard3.png" width="100px" alt="">
     </div>
     </div>
   <div class="row" id="infoblock">
-  <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+  <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;" itemprop="info">
     <img src="images/infocard4.png" width="100px" alt="">
     </div>
     <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
@@ -131,7 +131,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
     </div>
   </div>
   <div class="col-xxl-4 col-xl-4"></div>
-    <div class="container-fluid sectionheader" id="prices"> Цены </div>
+    <div class="container-fluid sectionheader" id="prices" itemprop="priceinfo"> Цены </div>
     <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
 
     <section class="pt-5 pb-5">
@@ -154,7 +154,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #002817;">
                         <img class="img-fluid" alt="100%x280" src="images/card1img.png" style="padding: 1vw">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">Номер в корпусе N руб/сут</p>
     
                         </div>
@@ -164,7 +164,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #00874D;">
                         <img class="img-fluid" alt="100%x280" src="images/card2img.png" style="padding: 1vw">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">Домик на одного N руб/сут</p>
     
                         </div>
@@ -173,7 +173,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #002817;">
                         <img class="img-fluid" alt="100%x280" src="images/card3img.png" style="padding: 1vw">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">Дом для семьи N руб/сут</p>
     
                         </div>
@@ -188,7 +188,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #00874D;">
                         <img class="img-fluid" alt="100%x280" src="images/card4img.png" style="padding: 1vw">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">Заезд на неделю N руб</p>
     
                         </div>
@@ -198,7 +198,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #002817;">
                         <img class="img-fluid" alt="100%x280" src="images/card5img.png" style="padding: 1vw">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">“Все включено” N руб/сут</p>
     
                         </div>
@@ -207,7 +207,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                     <div class="col-md-4 mb-3">
                       <div class="card" style="background-color: #00874D;">
                         <img class="img-fluid" alt="100%x280" src="images/card6img.png" style="padding: 1vw;">
-                        <div class="card-body">
+                        <div class="card-body" itemprop="infocard">
                           <p class="card-text">Выгодные выходные N руб/сут</p>
     
                         </div>
@@ -226,7 +226,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
     <div class="container-fluid sectionheader"id="info"> Контактная информация </div>
     <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
     <div class="row">
-      <div class="col-12 col-md-6" >
+      <div class="col-12 col-md-6" itemprop="infocompany">
         <h1>Адрес</h1>
         <h1>берег оз. Камышное</h1>
         <h1>Контактный телефон</h1>
@@ -246,5 +246,6 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 </body>
 
 </html>
+
 
 
