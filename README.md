@@ -1,1 +1,224 @@
-# No-Name-Student.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<title>Bootstraptest</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "sitetop">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" style="padding-right: 0px;">
+            <a class="navbar-brand" href="#"><img src= 
+                "images/logo.svg" 
+                alt="..." width="400"> </a>
+          <button class="navbar-toggler"style="padding-right: 0px; width: auto; height: auto" type="button" data-bs-toggle="collapse" data-bs-target="#list" aria-controls="list" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="list">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#about">О нас</a></li>
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#prices">Тарифы</a></li>
+            <li class ="nav-item" style="padding-top: 25px; padding-bottom: 25px"><a class = "navbtn" href="#info">Контакты</a></li>
+            <li class ="nav-item"><a class = "navicn" class="position-absolute top-0 end-0" href="#" alt=""></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6" id="toptext">
+            <p>
+            База отдыха “Лесная мечта”  предлагает вам уютное место для отдыха в дали от городской суеты.
+          </p class="h1">
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </div>
+      <div class="container-fluid" id="searchbar">
+        <div class="row" style="text-align: center;">
+          <div class="col-md-2 col-12" id="searchbarelm">
+            Поиск мест
+          </div>
+          <div class="col-md-3 col-12"> 
+            <form>
+              <p><input type="text" name="datein" placeholder="Дата заезда" size="30" style="height: 60px; width: 200px;" /></p>
+            </form>
+          </div>
+          <div class="col-md-3 col-12">
+            <form>
+              <p><input type="text" name="dateout" placeholder="Дата выезда" size="30" style="height: 60px; width: 200px;"/></p>
+            </form>
+          </div>
+          <div class="col-md-3 col-12">
+            <form>
+              <p><input type="text" name="people" placeholder="Количество гостей" size="30" style="height: 60px; width: 200px;"/></p>
+            </form>
+          </div>
+          <div class="col-md-1 col-12">
+            <img src="images\search button.svg" alt="" style="height: 5vw;">
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="main" style="background-color: #224335;">
+    <div class="container-fluid sectionheader" id="about"> У нас вы найдете </div>
+    <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
+    <div class="row" id="infoblock">
+      <div class="col-xxl-4 col-xl-4"></div>
+      <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+        <h1>Тут будет текст</h1>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+        <img src="images/infocard1.png" width="100px" alt="">
+      </div>
+      </div>
+    <div class="row" id="infoblock">
+    <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+      <img src="images/infocard2.png" width="100px" alt="">
+    </div>
+    <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+    <h1>Тут будет текст</h1>
+    </div>
+    </div>
+    <div class="col-xxl-4 col-xl-4"></div>
+  <div class="row" id="infoblock">
+    <div class="col-xxl-4 col-xl-4"></div>
+    <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+      <h1>Тут будет текст</h1>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-6" style="background-color: #002817;">
+      <img src="images/infocard3.png" width="100px" alt="">
+    </div>
+    </div>
+  <div class="row" id="infoblock">
+  <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+    <img src="images/infocard4.png" width="100px" alt="">
+    </div>
+    <div class="col-xxl-4 col-xl-4 col-6" style="background-color:#00874D;">
+    <h1>Тут будет текст</h1>
+    </div>
+  </div>
+  <div class="col-xxl-4 col-xl-4"></div>
+    <div class="container-fluid sectionheader" id="prices"> Цены </div>
+    <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
+
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-2" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+    
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #002817;">
+                        <img class="img-fluid" alt="100%x280" src="images/card1img.png" style="padding: 1vw">
+                        <div class="card-body">
+                          <p class="card-text">Номер в корпусе N руб/сут</p>
+    
+                        </div>
+    
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #00874D;">
+                        <img class="img-fluid" alt="100%x280" src="images/card2img.png" style="padding: 1vw">
+                        <div class="card-body">
+                          <p class="card-text">Домик на одного N руб/сут</p>
+    
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #002817;">
+                        <img class="img-fluid" alt="100%x280" src="images/card3img.png" style="padding: 1vw">
+                        <div class="card-body">
+                          <p class="card-text">Дом для семьи N руб/сут</p>
+    
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+    
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #00874D;">
+                        <img class="img-fluid" alt="100%x280" src="images/card4img.png" style="padding: 1vw">
+                        <div class="card-body">
+                          <p class="card-text">Заезд на неделю N руб</p>
+    
+                        </div>
+    
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #002817;">
+                        <img class="img-fluid" alt="100%x280" src="images/card5img.png" style="padding: 1vw">
+                        <div class="card-body">
+                          <p class="card-text">“Все включено” N руб/сут</p>
+    
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card" style="background-color: #00874D;">
+                        <img class="img-fluid" alt="100%x280" src="images/card6img.png" style="padding: 1vw;">
+                        <div class="card-body">
+                          <p class="card-text">Выгодные выходные N руб/сут</p>
+    
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <div class="container-fluid sectionheader"id="info"> Контактная информация </div>
+    <div class="container-fluid" style="height: 1vw; background-color: #00874D;"></div>
+    <div class="row">
+      <div class="col-12 col-md-6" >
+        <h1>Адрес</h1>
+        <h1>берег оз. Камышное</h1>
+        <h1>Контактный телефон</h1>
+        <h1>8 (912) 333-22-22</h1>
+        <h1>Электронная почта</h1>
+        <h1>forest-dream@gmail.ru</h1>
+        </div>
+      <div class="col-12 col-md-6" ><img src="images/map.png" alt=""></div>
+    </div>
+
+  </div>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
