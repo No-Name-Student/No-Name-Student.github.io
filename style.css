@@ -1,0 +1,82 @@
+.sitetop{
+  background-image: url(images/background.svg) !important;
+  background-repeat: cover;
+  height: 100%;
+}
+.navbtn
+{
+  border: 5px solid white !important;
+  width: 10vw;
+  padding: 10px 40px !important;
+  stroke-width: 5% !important;
+  color:white !important;
+  background-color: transparent !important;
+  margin-left: 1.5vw !important;
+  text-decoration: none;
+}
+.navbtn:hover
+{
+  
+  border: #00874D 5px solid !important;
+  color:#00874D !important;
+  background-color: #002817 !important;
+}
+.navbtn:active
+{
+  border: #002817 5px solid !important;
+  color: #002817 !important;
+  background-color: #00874D !important;
+}
+.navicn
+{
+  display: block;
+  background: url('images/login.svg') center transparent no-repeat ;
+  width: 50px;
+  height: 70px;
+  margin-left: 25px;
+}
+.navicn:hover
+{
+  background: url('images/login%20hover.svg') center transparent no-repeat ;
+}
+.navicn:active
+{
+  background: url('images/login%20press.svg') center transparent no-repeat ;
+}
+.navbar-toggler-icon
+{
+  background-image: url("images/menubtn.svg");
+  width: 100px;
+  height: 80px;
+}
+#toptext
+{
+  font-family: "EB Garamond";
+  font-style: italic;
+  font-size: 3.5vw;
+  word-break: keep-all !important;
+  color: white;
+  text-align: center;
+}
+#searchbar
+{
+  background-color: #00874D;
+}
+#searchbarelm
+{
+  text-align: center;
+  font-size: 2.5vw;
+}
+.sectionheader
+{
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+}
+#infoblock
+{
+  margin-top: 2vw;
+}
+html {
+  scroll-behavior: smooth;
+}
